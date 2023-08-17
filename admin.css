@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#d90429;
+    --text-color:#020102;
+    --bg-color:#fff
+}
+body{
+  background: white;
+}
+
+html::-webkit-scrollbar{
+  width: 0.5rem;
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+  border-radius: 5rem;
+  background: var(--text-color);
+}
+
+.container{
+  max-width: 80%;
+  background: white;
+  height: 1600px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+h1{
+  text-align: center;
+  padding: 2rem;
+}
+
+span{
+  color: red;
+}
+
+.cards{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 33%;
+  padding: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  
+}
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 33%;
+  max-height: 400px;
+  padding: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+  
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+textarea,
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"],
+.action-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+.action-button:hover {
+    background-color: #45a049;
+}
+
+.action-button.delete {
+    background-color: #f44336;
+}
+
+@media (max-width:1110px){
+  .cards{
+    flex-direction: column;
+  }
+  .card2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+  .card{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width:1327px){
+  .cards{
+    flex-direction: column;
+  }
+  .card2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    max-width: 100%;
+  }
+  .card{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+}
+
+@media (max-width:399px){
+  .cards{
+    flex-direction: column;
+  }
+  .card2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+  .card{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

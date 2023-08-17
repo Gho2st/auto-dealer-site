@@ -1,0 +1,24 @@
+Tytuł: Auai A45
+Ścieżka do zdjęcia: ogloszenia/Auai_A45/zdjecie_glowne.jpg
+Data dodania: 2023-06-28
+Cena: 21 211
+Przebieg: 211 111
+Rodzaj paliwa: Diesel
+Rocznik: 2003
+
+Tytuł: Auai A21
+Ścieżka do zdjęcia: ogloszenia/Auai_A21/zdjecie_glowne.jpg
+Data dodania: 2023-06-06
+Cena: 1
+Przebieg: 1
+Rodzaj paliwa: 1
+Rocznik: 1
+
+Tytuł: TYTUL OGLOSZENIA
+Ścieżka do zdjęcia: ogloszenia/TYTUL_OGLOSZENIA/zdjecie_glowne.jpg
+Data dodania: 2023-06-15
+Cena: 1
+Przebieg: 1
+Rodzaj paliwa: 1
+Rocznik: 1
+

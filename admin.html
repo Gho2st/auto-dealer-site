@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel admina</title>
+    
+    <link rel="stylesheet" href="admin.css"/> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    
+<div class="container">
+    <h1>Panel Admina - Auto<span>Speed</span></h1>
+    <div class="cards">
+        <div class="card">
+            <h3>Dodaj ogłoszenie</h3>
+            <form action="dodaj_ogloszenie.php" method="POST" enctype="multipart/form-data">
+                <label for="tytul">Tytuł:</label>
+                <input type="text" name="tytul" id="tytul" required>
+              
+                <label for="zdjecie">Zdjęcie:</label>
+                <input type="file" name="zdjecie" id="zdjecie" accept="image/*" required>
+              
+                <label for="opis">Opis:</label>
+                <textarea name="opis" id="opis" required></textarea>
+              
+                <input type="submit" value="Dodaj ogłoszenie">
+              </form>
+        </div>
+        <div class="card">
+            <h3>Zmien zdjecie ogloszenia</h3>
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" name="plik">
+                <input type="submit" name="submit">
+             </form>
+        </div>
+        <div class="card">
+            <h3>Zmien tytul ogloszenia</h3>
+        </div>
+    </div>
+</div>
+  
+</body>
+</html>
